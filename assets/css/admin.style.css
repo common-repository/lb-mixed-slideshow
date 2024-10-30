@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+input, select, textarea{
+	outline:none;
+}
+.widefat td {
+vertical-align: middle;
+}
+.wp-list-table.posts tr td{height: 30px;}
+.wp-list-table.posts tr.row0 td{
+	background-color:#F0F0F0;
+}
+.wp-list-table.posts tr.row0:hover td{
+	_background-color:#FFFFFF;
+}
+
+.wp-list-table.posts tr.row1 td{
+	background-color:#FFFF;
+}
+.wp-list-table.posts tr.row1:hover td{
+	_background-color:#F0F0F0;
+}
+.editable{
+	display:none;	
+}
+.icon-slideshow-32{
+	background-image:url(../images/slideshow.png);
+	background-position:1px;
+	background-repeat:no-repeat;
+}
